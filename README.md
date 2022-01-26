@@ -1,10 +1,15 @@
 # Sorteador
 
 ![Sorteador](./github/mac-landing-page.png)
+
+## Random Number Selector 
 ![Sorteador-Numbers](./github/mac-numbers.png)
+
+## Random People Selector
 ![Sorteador-People](./github/mac-people.png)
 
 <br>
+
 ### Project Link: [Sorteador](https://joaopedropsilva.github.io/sorteador/)
 
 ## 📖 Sobre o Projeto / About the Project
