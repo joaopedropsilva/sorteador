@@ -67,6 +67,13 @@ function adaptToNumber(){
                         <button id="draw-button">Sortear</button>
                         <button id="go-back">Voltar</button>`;
 
+    let nMin = document.getElementById("n-min");
+    let nMax = document.getElementById("n-max");
+    
+    nMin.value = 1;
+    nMax.value = 100;
+
+
     let btnDraw = document.getElementById("draw-button");
     btnDraw.addEventListener("click", performDrawNumbers);
 
