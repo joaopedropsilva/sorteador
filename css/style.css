@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: 'Roboto Condensend', sans-serif;
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #4b63d8;
+}
+
+.container{
+    display: block;
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    margin: auto;
+    margin-top: 10rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+}
+
+.info-container{
+    display: block;
+    width: 100%;
+    padding: 3rem;
+    border: 1px solid white;
+    border-radius: 1.6rem;
+    background-color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.logo-container{
+    display: block;
+    width: 32rem;
+    margin: auto;
+}
+
+.logo-container img{
+    width: 100%;
+}
+
+.options{
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 1.5rem;
+    box-sizing: border-box;
+}
+
+#choose-option{
+    display: block;
+    font-size: 2.5rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.options button{
+    display: inline-block;
+    width: 25%;
+    padding: 1rem;
+    margin: 0.5rem;
+    border: none;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 550;
+    background-color: #4b63d8;
+    box-sizing: border-box;
+}
+
+.options button:hover{
+    background-color: #5773ff;
+}
+
+/* Number Options */
+
+.options input{
+    display: inline-block;
+    width: 15%;
+    padding: 1rem;
+    border: 0.2rem solid black;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+.options input::placeholder{
+    color: #5773ff;
+    font-size: 1.6rem;
+    font-weight: lighter;
+}
+
+.options input:enabled{
+    color: #5773ff;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+.options h2{
+    display: inline-block;
+    font-size: 2.5rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+#draw-button{
+    display: inline-block;
+    width: 25%;
+    padding: 1rem;
+    margin: 0.5rem;
+    margin-left: 1rem; 
+    border: 0.1rem solid #4b63d8;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 550;
+    background-color: #4b63d8;
+    box-sizing: border-box;
+}
+
+#draw-button:hover{
+    background-color: #32323d;
+    border-color: #32323d;
+}
+
+#go-back{
+    margin-top: 1rem;
+}
+
+/* Number Result */
+
+#h2-result{
+    color: #5773ff;
+}
+
+/* People Options */
+
+#names-area{
+    resize: none;
+}
+
+#names-area:enabled{
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    font-weight: lighter;
+}
+
+#draw-button-names{
+    display: block;
+    width: 25%;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 0.5rem; 
+    border: 0.1rem solid #4b63d8;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 550;
+    background-color: #4b63d8;
+    box-sizing: border-box;
+}
+
+#draw-button-names:hover{
+    background-color: #32323d;
+    border-color: #32323d;
+}
